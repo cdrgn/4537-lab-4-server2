@@ -9,7 +9,8 @@ const DB_CONFIG = {
 };
 
 const PORT = process.env.PORT || 3000;
-const ALLOWED_ORIGIN = '*';
+// const ALLOWED_ORIGIN = '*';
+const ALLOWED_ORIGIN = 'https://illustrious-bubblegum-77febb.netlify.app/';
 
 const PATIENTS = [
   { name: 'Sara Brown', dateOfBirth: '1901-01-01' },
