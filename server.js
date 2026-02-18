@@ -1,7 +1,7 @@
 const DB_CONFIG = {
   host: process.env.MYSQLHOST || 'localhost',
   port: process.env.MYSQLPORT || 3306,
-  database: process.env.MYSQLDATABASE || '4537_lab4',
+  database: process.env.MYSQL_DATABASE || '4537_lab4',
   adminUser: process.env.MYSQL_ADMIN_USER || 'admin',
   adminPassword: process.env.MYSQL_ADMIN_PASSWORD || 'admin_password',  
   guestUser: process.env.MYSQL_GUEST_USER || 'guest',
